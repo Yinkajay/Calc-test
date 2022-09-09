@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body{
+  font-family: 'Play', sans-serif;
+}
+
+.header{
+  /* text-align: center; */
+  width: max-content;
+  margin: 0 auto;
+}
+
+div#calculator{
+  width: max-content;
+  margin: 0 auto;
+  /* border: 2px solid; */
+}
+
+
+table{
+  border: 1px solid red;
+  border-radius: 10px;
+  /* border-collapse: collapse; */
+}
+
+th,td{
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold ;
+  font-size: 20px;
+  /* border-collapse: collapse; */
+}
+
+th{
+  border: 1px solid blue;
+  height: 80px;
+  width: 80px;
+  text-align: right;
+  padding: 5px;
+}
+
+td{
+  border: 1px solid green;
+  height: 80px;
+  width: 80px;
+}
+td:hover{
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
